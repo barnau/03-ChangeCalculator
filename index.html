@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Change Calculator</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1>Change Calculator</h1>
+            <p>Give back the right change, every time!</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">How much is due for the sale?
+                <div class="well">
+                    <br/>
+                    <input id="saleAmount" type="text" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-6">How much has the customer given you?
+                <div class="well">
+                    <br/>
+                    <input id="amountReceived" type="text" class="form-control">    
+                </div>
+             </div>
+        </div>
+        <button class="btn btn-primary btn-lg btn-block">Calculate</button>
+        <div class="row" id="errorPanel">
+            <div class="col-md-12">
+                <div class="panel panel-danger ">
+                    <div class="panel-heading">Error</div>
+                    <div class="panel-body">
+                        Error
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well">
+                    <h4>Dollars</h4>
+                    <br/>
+                    <div class="panel" id="dollarsPanel"></div>    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="well">
+                    <h4>Quarters</h4>
+                    <br/>
+                    <div class="panel" id="quartersPanel"></div>    
+                </div>
+           </div>
+            <div class="col-md-3">
+                <div class="well">
+                    <h4>Dimes</h4>
+                    <br/>
+                    <div class="panel" id="dimesPanel"></div>    
+                </div>
+                
+            </div>
+            <div class="col-md-3">
+                <div class="well">
+                    <h4>Nickels</h4>
+                    <br/>
+                    <div class="panel" id="nickelsPanel"></div>    
+                </div>
+           </div>
+            <div class="col-md-3">
+                <div class="well">
+                    <h4>Pennies</h4>
+                    <br/>
+                    <div class="panel" id="penniesPanel"></div>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="javascript/app.js" type="text/javascript"></script>
+</body>
+
+</html>

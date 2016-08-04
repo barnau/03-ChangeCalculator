@@ -1,0 +1,20 @@
+
+
+.panel {
+	text-align: center;
+}
+
+.well {
+	text-align: center;
+	
+
+}
+
+.panel {
+	font-size: 15px;
+}
+
+#errorPanel {
+	font-size:10px;
+	display: none;
+}
