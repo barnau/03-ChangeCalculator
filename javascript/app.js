@@ -2,8 +2,8 @@ $(".btn").click(function() {
 	$("#errorPanel").hide();
 	
 
-    var saleAmount = $("#saleAmount").val();
-    var amountReceived = $("#amountReceived").val();
+    var saleAmount = parseFloat($("#saleAmount").val());
+    var amountReceived = parseFloat($("#amountReceived").val());
 
 
 
